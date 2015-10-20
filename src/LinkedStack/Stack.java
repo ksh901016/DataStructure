@@ -2,8 +2,7 @@ package LinkedStack;
 
 public interface Stack {
 	boolean isEmpty();
-	void push(char item);
-	char pop();
+	void push(int item);
+	int pop();
 	void delete();
-	char peek();
 }

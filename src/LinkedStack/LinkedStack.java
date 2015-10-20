@@ -10,7 +10,7 @@ public class LinkedStack implements Stack{
 	}
 
 	@Override
-	public void push(char item) {
+	public void push(int item) {
 		StackNode newNode = new StackNode();
 		newNode.data = item;
 		newNode.link = top;
@@ -19,13 +19,13 @@ public class LinkedStack implements Stack{
 	}
 
 	@Override
-	public char pop() {
+	public int pop() {
 		if(isEmpty()){
 			System.out.println("Deleting fail!! Linked Stack is empty!!");
 			return 0;
 		}
 		else{
-			char item = top.data;
+			int item = top.data;
 			top = top.link;
 			return item;
 		}
@@ -41,17 +41,7 @@ public class LinkedStack implements Stack{
 		}
 	}
 
-	@Override
-	public char peek() {
-		if(isEmpty()){
-			System.out.println("Peeking fail!! Linked Stack is empty!!");
-			return 0;
-		}
-		else{
-			return top.data;
-		}
-	}
-	
+
 	public void printStack(){
 		if(isEmpty()){
 			System.out.println("Linked Stack is empty %n %n");
@@ -66,6 +56,7 @@ public class LinkedStack implements Stack{
 			System.out.println();
 		}
 	}
+
 
 
 }

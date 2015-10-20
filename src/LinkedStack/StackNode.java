@@ -2,6 +2,6 @@ package LinkedStack;
 
 public class StackNode {
 
-	char data;
+	int data;
 	StackNode link;
 }
