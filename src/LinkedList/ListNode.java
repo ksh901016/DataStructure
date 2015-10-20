@@ -1,6 +1,7 @@
 package LinkedList;
 
 public class ListNode {
+	
 	private String data;
 	public ListNode link;
 
