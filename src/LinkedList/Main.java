@@ -9,6 +9,7 @@ public class Main {
 		L.insertLastNode("수");
 		L.insertLastNode("일");
 		L.printList();
+		System.out.println(L);
 	}
 
 }
