@@ -7,7 +7,7 @@ public class Main {
 		int[] a = {1,10,2,6,75};
 		int key = 75;
 		
-		System.out.println(ls.Search(a, key));
+		System.out.println(ls.L_Search(a, key));
 		
 	}
 }

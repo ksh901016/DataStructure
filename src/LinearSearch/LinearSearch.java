@@ -2,7 +2,7 @@ package LinearSearch;
 
 public class LinearSearch {
 	
-	public int Search(int a[],int key){
+	public int L_Search(int a[],int key){
 		int location = -1;
 		int i = 0;
 		if(a[i] == key){
