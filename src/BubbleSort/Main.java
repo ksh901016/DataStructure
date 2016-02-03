@@ -12,7 +12,7 @@ public class Main {
 			System.out.printf(" %d", a[i]);
 		}
 		System.out.println();
-		s.bubbleSort(a);
+		s.bubbleSort_2(a);
 	}
 
 }

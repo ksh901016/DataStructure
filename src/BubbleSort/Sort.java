@@ -20,6 +20,24 @@ public class Sort {
 		}
 
 	}
+	
+	public void bubbleSort_2(int a[]){
+		int i, j , size;
+		size = a.length;
+		
+		for(i =0; i <size -1; i++){
+			System.out.printf("\n버블 정렬 %d 단계 : ",i+1);
+			for(j =0; j<a.length-i-1 ; j++){
+				if(a[j] > a[j+1]){
+					swap(a,j,j+1);
+				}
+				System.out.printf("\n\t");
+				for(int k = 0 ; k < size; k++){
+					System.out.printf("%4d ", a[k]);
+				}
+			}
+		}
+	}
 
 	public void swap(int a[], int i, int j) {
 		int temp = a[i];
