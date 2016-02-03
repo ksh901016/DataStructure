@@ -84,5 +84,13 @@ public class LinkedList {
 		}
 		System.out.printf(")");
 	}
+	
+
+	@Override
+	public String toString() {
+		return "LinkedList [head=" + head + "]";
+	}
+	
+	
 
 }
