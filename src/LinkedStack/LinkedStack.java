@@ -10,7 +10,7 @@ public class LinkedStack implements Stack{
 	}
 
 	@Override
-	public void push(int item) {
+	public void push(char item) {
 		StackNode newNode = new StackNode();
 		newNode.data = item;
 		newNode.link = top;
@@ -19,13 +19,13 @@ public class LinkedStack implements Stack{
 	}
 
 	@Override
-	public int pop() {
+	public char pop() {
 		if(isEmpty()){
 			System.out.println("Deleting fail!! Linked Stack is empty!!");
 			return 0;
 		}
 		else{
-			int item = top.data;
+			char item = top.data;
 			top = top.link;
 			return item;
 		}
