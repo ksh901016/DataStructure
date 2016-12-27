@@ -3,7 +3,7 @@ package QuickSort;
 public class QuickSort {
 
 	int i =0;
-	
+	// Quick sort starts by randomly picking a number called a "pivot"
 	public void quickSort(int a[], int begin, int end) {
 		if(begin<end){
 			int p;
